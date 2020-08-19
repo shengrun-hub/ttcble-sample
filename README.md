@@ -10,14 +10,14 @@
 
 >allprojects {
 >>repositories {
->>>...
->>>maven { url 'https://dl.bintray.com/android-ttcble/maven' }
->>}
+>>>...  
+>>>maven { url 'https://dl.bintray.com/android-ttcble/maven' }  
+>>}  
 >}
 
 2. 在引用的module的build.gradle中添加
 
 >dependencies {
->>...
->>implementation 'com.ttcble.android:blebase:1.1.7'
+>>...  
+>>implementation 'com.ttcble.android:blebase:1.1.7'  
 >}
