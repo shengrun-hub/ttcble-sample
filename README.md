@@ -8,12 +8,12 @@
 
 1. 工程根目录下的build.gradle中添加
 
-```allprojects {
+(```allprojects {
     repositories {
       ...  
       maven { url 'https://dl.bintray.com/android-ttcble/maven' }  
     }  
-  }```
+  }```)
 
 2. 在引用的module的build.gradle中添加
 
