@@ -8,9 +8,9 @@
 
 1. 工程根目录下的build.gradle中添加
 
-  allprojects {
-    repositories {
-      ...  
+>allprojects {
+>>repositories {
+>>>...  
       maven { url 'https://dl.bintray.com/android-ttcble/maven' }  
     }  
   }
